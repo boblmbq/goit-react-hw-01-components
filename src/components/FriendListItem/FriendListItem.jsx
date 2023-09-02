@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import css from './FriendListItem.module.css';
 export const FriendListItem = ({ data }) => {
-  console.log(data);
   return (
     <ul className={css.friend_list}>
       <Li data={data} />
