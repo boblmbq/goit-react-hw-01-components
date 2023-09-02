@@ -1,3 +1,17 @@
 import userData from 'data/user.json';
+import downloadData from 'data/data.json';
+import friendsData from 'data/friends.json';
+
+import { Statistics } from './Statistics/Statistics';
 import { Profile } from './Profile/Profile';
-export const App = () => <Profile data={userData} />;
+import { FriendListItem } from './FriendListItem/FriendListItem';
+
+export const App = () => {
+  return (
+    <>
+      <Profile data={userData} />
+      <Statistics data={downloadData} title="Upload data" />
+      <FriendListItem data={friendsData} />
+    </>
+  );
+};

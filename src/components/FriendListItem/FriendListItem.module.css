@@ -1,0 +1,21 @@
+.friend_list {
+  background: #c5c5c5;
+}
+.item {
+  background: #dddddd;
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 50px;
+}
+.status {
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  width: 6px;
+  background-color: red;
+}
+.green {
+  background-color: rgb(78, 255, 78);
+}

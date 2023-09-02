@@ -1,0 +1,15 @@
+.statistics {
+  background-color: #c2c2c2;
+  width: max-content;
+}
+.stat_list {
+  display: flex;
+  gap: 10px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
