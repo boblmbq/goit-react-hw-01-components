@@ -1,4 +1,5 @@
 import css from './TransactionHistory.module.css';
+import { TableRow } from 'components/TableRow/TableRow';
 export const TransactionHistory = ({ data }) => {
   return (
     <table className={css.transaction_history}>
@@ -17,12 +18,4 @@ export const TransactionHistory = ({ data }) => {
   );
 };
 
-const TableRow = ({ data }) => {
-  return data.map(({ id, type, amount, currency }) => (
-    <tr key={id} className={ css[type]}>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
-    </tr>
-  ));
-};
+

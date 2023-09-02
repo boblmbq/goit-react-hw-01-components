@@ -7,20 +7,3 @@ thead {
 th {
   padding: 10px 0;
 }
-td {
-  text-align: center;
-  padding: 10px 0;
-}
-
-.payment {
-  background-color: rgba(242, 255, 0, 0.4);
-}
-.invoice {
-  background-color: rgba(146, 172, 0, 0.4);
-}
-.deposit {
-  background-color: rgba(0, 0, 255, 0.4);
-}
-.withdrawal {
-  background-color: rgba(0, 255, 195, 0.4);
-}
